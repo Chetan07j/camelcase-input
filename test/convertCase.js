@@ -59,4 +59,10 @@ describe('CONVERT INPUT TO lowerCamelcase:', () => {
     expect(output).to.have.property('isDeleted')
     done()
   })
+
+  it('Should not convert string input to lowerCamelcase if its email', (done) => {
+    let output = camelcase('test@gmail.com')
+    expect(output).to.equal('test@gmail.com')
+    done()
+  })
 })

@@ -80,3 +80,4 @@ console.log(camelcase([{'FOo-bar': [{'abc-df__r': true}, {'tghd_dfdf--ee': true}
 ## Changelog
 
 - _1.0.0 Initial version_
+- _1.0.1 email regex added (email is not converted)_
